@@ -29,7 +29,7 @@
   <img src="https://img.shields.io/badge/-Svelte-2e3440?logoColor=81a1c1&logo=svelte" />
 </a></p>
   
-----------------
+<br><br><br><br>
   
 # :book: Web Projects
 <p align="center">
@@ -41,7 +41,7 @@
   </a>
 </p>
   
-----------------
+<br><br><br><br>
   
 # :package: PMMP virion projects
 <p align="center">
@@ -85,7 +85,7 @@
   </a>
 </p>
   
-----------------
+<br><br><br><br>
   
 # :package: PMMP plugin projects
 <p align="center">
