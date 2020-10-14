@@ -9,7 +9,6 @@
 ![HTML5](https://img.shields.io/badge/-HTML5-efefef?&logo=html5)
 ![SCSS](https://img.shields.io/badge/-SCSS-efefef?&logo=sass)
 ![SVG](https://img.shields.io/badge/-SVG-efefef?&logo=svg)
-<img align="right" src="https://spotify-github-profile.vercel.app/api/view?uid=22mtl1ixl9p713fdhbi678bcu&cover_image=true&theme=novatorem">
 
 ![GIT](https://img.shields.io/badge/-Git-efefef?&logo=git)
 ![GITHUB](https://img.shields.io/badge/-Github-efefef?&logo=github&logoColor=000)
@@ -20,7 +19,9 @@
 ![Hexo](https://img.shields.io/badge/-Hexo-efefef?&logo=hexo)
 ![SvelteJS](https://img.shields.io/badge/-Svelte-efefef?&logo=svelte)
 
-
+<img align="right" src="https://spotify-github-profile.vercel.app/api/view?uid=22mtl1ixl9p713fdhbi678bcu&cover_image=true&theme=novatorem">
+<img src="https://github-profile-trophy.vercel.app/?username=PresentKim&rank=SECRET,SSS,SS,S,AAA,AA,A&margin-w=15&margin-h=15">
+  
 ----------------
  
 ## :book: Web (4 project)
