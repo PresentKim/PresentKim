@@ -3,28 +3,31 @@
   <img src="https://github-readme-stats.vercel.app/api/top-langs?username=PresentKim&langs_count=4&count_private=true&theme=nord" />
 </p>
 <p align="center">
-  <img align="center" src="https://github-profile-trophy.vercel.app/?username=PresentKim&margin-w=28&margin-h=15&theme=nord" />
+  <img src="https://github-profile-trophy.vercel.app/?username=PresentKim&margin-w=28&margin-h=15&theme=nord" />
 </p>
 
-![C](https://img.shields.io/badge/-C-efefef?&logo=C)
-![C++](https://img.shields.io/badge/-C++-efefef?&logo=c%2b%2b&logoColor=059)
-![Java](https://img.shields.io/badge/-Java-efefef?&logo=Java&logoColor=F70)
-![PHP](https://img.shields.io/badge/-PHP-efefef?&logo=PHP&logoColor=858)
-![JavaScript](https://img.shields.io/badge/-JavaScript-efefef?&logo=JavaScript)
-![SQL](https://img.shields.io/badge/-SQL-efefef?&logo=MySQL)
-![HTML5](https://img.shields.io/badge/-HTML5-efefef?&logo=html5)
-![SCSS](https://img.shields.io/badge/-SCSS-efefef?&logo=sass)
-![SVG](https://img.shields.io/badge/-SVG-efefef?&logo=svg)
+<p align="center">
+  <img src="https://img.shields.io/badge/-C-2e3440?logoColor=81a1c1&logo=C" />
+  <img src="https://img.shields.io/badge/-C++-2e3440?logoColor=81a1c1&logo=c%2b%2b" />
+  <img src="https://img.shields.io/badge/-Java-2e3440?logoColor=81a1c1&logo=Java" />
+  <img src="https://img.shields.io/badge/-PHP-2e3440?logoColor=81a1c1&logo=PHP" />
+  <img src="https://img.shields.io/badge/-JavaScript-2e3440?logoColor=81a1c1&logo=JavaScript" />
+  <img src="https://img.shields.io/badge/-SQL-2e3440?logoColor=81a1c1&logo=MySQL" />
+  <img src="https://img.shields.io/badge/-HTML5-2e3440?logoColor=81a1c1&logo=html5" />
+  <img src="https://img.shields.io/badge/-SCSS-2e3440?logoColor=81a1c1&logo=sass" />
+  <img src="https://img.shields.io/badge/-SVG-2e3440?logoColor=81a1c1&logo=svg" />
+</p>
 
-![GIT](https://img.shields.io/badge/-Git-efefef?&logo=git)
-![GITHUB](https://img.shields.io/badge/-Github-efefef?&logo=github&logoColor=000)
-![Linux](https://img.shields.io/badge/-Linux-efefef?&logo=linux&logoColor=004)
-![Ubuntu](https://img.shields.io/badge/-Ubuntu-efefef?&logo=ubuntu)
-![NodeJS](https://img.shields.io/badge/-NodeJS-efefef?&logo=node.js)
-![VueJS](https://img.shields.io/badge/-VueJS-efefef?&logo=vue.js)
-![Hexo](https://img.shields.io/badge/-Hexo-efefef?&logo=hexo)
-![SvelteJS](https://img.shields.io/badge/-Svelte-efefef?&logo=svelte)
-
+<p align="center">
+  <img src="https://img.shields.io/badge/-Git-2e3440?logoColor=81a1c1&logo=git" />
+  <img src="https://img.shields.io/badge/-Github-2e3440?logoColor=81a1c1&logo=github" />
+  <img src="https://img.shields.io/badge/-Linux-2e3440?logoColor=81a1c1&logo=linux" />
+  <img src="https://img.shields.io/badge/-Ubuntu-2e3440?logoColor=81a1c1&logo=ubuntu" />
+  <img src="https://img.shields.io/badge/-NodeJS-2e3440?logoColor=81a1c1&logo=node.js" />
+  <img src="https://img.shields.io/badge/-VueJS-2e3440?logoColor=81a1c1&logo=vue.js" />
+  <img src="https://img.shields.io/badge/-Hexo-2e3440?logoColor=81a1c1&logo=hexo" />
+  <img src="https://img.shields.io/badge/-Svelte-2e3440?logoColor=81a1c1&logo=svelte" />
+</p>
   
 ----------------
  
