@@ -1,9 +1,8 @@
 | ![](https://profile-counter.glitch.me/PresentKim/count.svg) |
 | :---------------------------------------------------------: |
-| ![](https://github-readme-stats.vercel.app/api?username=PresentKim&show_icons=true&include_all_commits=true&count_private=true&hide_border=true") |  
+| ![](https://github-readme-stats.vercel.app/api?username=PresentKim&show_icons=true&include_all_commits=true&count_private=true&line_height=40&theme=vue&&bg_color=efefef) ![](https://github-contribution-stats.vercel.app/api/?username=PresentKim) |  
 
 #### :star:저는 제 이름인 김현재에서 따온 *PresentKim*라는 닉네임으로 활동중인 컴퓨터 소프트웨어과 학생입니다.
-
 전 [Minecraft:BE](https://minecraft.gamepedia.com/Bedrock_Edition)용 서버 소프트웨어인 [Pocketmine-MP](https://github.com/pmmp/PocketMine-MP)의 플러그인을 만들면서 프로그래밍을 시작했습니다  
   
 아직도 PM 플러그인을 제작하는 중이고, 따로 큰 프로젝트를 운영해본 적이 없는 경험 부족한 프로그래머입니다  
@@ -38,7 +37,7 @@
 [![](https://img.shields.io/github/downloads/organization/VirtualChest-PMMP/total?color=success&labelColor=blue&label=VirtualChest)](https://github.com/organization/VirtualChest-PMMP)
 [![](https://img.shields.io/github/downloads/organization/TargetSelector-PMMP/total?color=success&labelColor=blue&label=TargetSelector)](https://github.com/organization/TargetSelector-PMMP)
 [![](https://img.shields.io/github/downloads/organization/ShowInfo-PMMP/total?color=success&labelColor=blue&label=ShowInfo)](https://github.com/organization/ShowInfo-PMMP)
-[![](https://img.shields.io/github/downloads/organization/Lullaby-PMMP/total?color=success&labelColor=blue&label=Lullaby)](https://github.com/organization/Lullaby-PMMP)
+[![](https://img.shields.io/github/downloads/organization/Lullaby-PMMP/total?color=success&labelColor=blue&label=Lullaby)](https://github.com/organization/Lullaby-PMMP)  
 [![](https://img.shields.io/github/downloads/organization/Lifespan-PMMP/total?color=success&labelColor=blue&label=Lifespan)](https://github.com/organization/Lifespan-PMMP)
 [![](https://img.shields.io/github/downloads/organization/IgnoreCase-PMMP/total?color=success&labelColor=blue&label=IgnoreCase)](https://github.com/organization/IgnoreCase-PMMP)
 [![](https://img.shields.io/github/downloads/organization/HotBox-PMMP/total?color=success&labelColor=blue&label=HotBox)](https://github.com/organization/HotBox-PMMP)
