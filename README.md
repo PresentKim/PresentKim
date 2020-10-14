@@ -32,10 +32,12 @@
 <br><br><br><br>
   
 # :book: Web Projects
+<div align="center">
+  
 |     |     |
 | :-: | :-: |
 | [![-](https://github-readme-stats.vercel.app/api/pin/?username=PresentKim&repo=site-hexo&theme=nord&show_owner=true)](https://github.com/PresentKim/site-hexo) | [![-](https://github-readme-stats.vercel.app/api/pin/?username=Blugin&repo=blugin.github.io&theme=nord&show_owner=true)](https://github.com/Blugin/blugin.github.io) |
-  
+  </div>
 <br><br><br><br>
   
 # :package: PMMP virion projects
