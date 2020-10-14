@@ -1,4 +1,4 @@
-![](https://github-readme-stats.vercel.app/api?username=PresentKim&show_icons=true&include_all_commits=true&count_private=true&line_height=40&theme=vue&&bg_color=efefef) ![](https://github-contribution-stats.vercel.app/api/?username=PresentKim)
+![](https://github-readme-stats.vercel.app/api?username=PresentKim&show_icons=true&include_all_commits=true&count_private=true&line_height=32&theme=vue&&bg_color=efefef) ![](https://github-contribution-stats.vercel.app/api/?username=PresentKim)
 
 ![C](https://img.shields.io/badge/-C-efefef?&logo=C)
 ![C++](https://img.shields.io/badge/-C++-efefef?&logo=c%2b%2b&logoColor=059)
