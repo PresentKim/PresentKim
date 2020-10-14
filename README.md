@@ -32,58 +32,45 @@
 <br><br><br><br>
   
 # :book: Web Projects
-<p align="center">
-  <a href="https://github.com/PresentKim/site-hexo">
-    <img align="left" src="https://github-readme-stats.vercel.app/api/pin/?username=PresentKim&repo=site-hexo&theme=nord&show_owner=true" />
-  </a>
-  <a href="https://github.com/Blugin/sapper-site">
-    <img align="right" src="https://github-readme-stats.vercel.app/api/pin/?username=Blugin&repo=blugin.github.io&theme=nord&show_owner=true" />
-  </a>
-</p>
+|     |     |
+| :-: | :-: |
+| [![-](https://github-readme-stats.vercel.app/api/pin/?username=PresentKim&repo=site-hexo&theme=nord&show_owner=true)](https://github.com/PresentKim/site-hexo) | [![-](https://github-readme-stats.vercel.app/api/pin/?username=Blugin&repo=blugin.github.io&theme=nord&show_owner=true)](https://github.com/Blugin/blugin.github.io) |
   
 <br><br><br><br>
   
 # :package: PMMP virion projects
-<p align="center">
+<div align="center">
   <a href="https://github.com/Blugin/libtranslator">
-    <img align="left" src="https://github-readme-stats.vercel.app/api/pin/?username=Blugin&repo=libtranslator&theme=nord" />
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=Blugin&repo=libtranslator&theme=nord" />
   </a>
   <a href="https://github.com/Blugin/libcommand">
-    <img align="right" src="https://github-readme-stats.vercel.app/api/pin/?username=Blugin&repo=libcommand&theme=nord" />
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=Blugin&repo=libcommand&theme=nord" />
   </a>
-</p>
-<p align="center">
   <a href="https://github.com/Blugin/arrayutils">
-    <img align="left" src="https://github-readme-stats.vercel.app/api/pin/?username=Blugin&repo=arrayutils&theme=nord" />
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=Blugin&repo=arrayutils&theme=nord" />
   </a>
   <a href="https://github.com/Blugin/stringutils">
-    <img align="right" src="https://github-readme-stats.vercel.app/api/pin/?username=Blugin&repo=stringutils&theme=nord" />
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=Blugin&repo=stringutils&theme=nord" />
   </a>
-</p>
-<p align="center">
   <a href="https://github.com/Blugin/BannerFactory">
-    <img align="left" src="https://github-readme-stats.vercel.app/api/pin/?username=Blugin&repo=BannerFactory&theme=nord" />
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=Blugin&repo=BannerFactory&theme=nord" />
   </a>
   <a href="https://github.com/Blugin/InvMenuPlus">
-    <img align="right" src="https://github-readme-stats.vercel.app/api/pin/?username=Blugin&repo=InvMenuPlus&theme=nord" />
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=Blugin&repo=InvMenuPlus&theme=nord" />
   </a>
-</p>
-<p align="center">
   <a href="https://github.com/Blugin/SelfFactoryTrait">
-    <img align="left" src="https://github-readme-stats.vercel.app/api/pin/?username=Blugin&repo=SelfFactoryTrait&theme=nord" />
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=Blugin&repo=SelfFactoryTrait&theme=nord" />
   </a>
   <a href="https://github.com/Blugin/SingletonTrait">
-    <img align="right" src="https://github-readme-stats.vercel.app/api/pin/?username=Blugin&repo=SingletonTrait&theme=nord" />
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=Blugin&repo=SingletonTrait&theme=nord" />
   </a>
-</p>
-<p align="center">
   <a href="https://github.com/Blugin/MultilingualConfigTrait">
-    <img align="left" src="https://github-readme-stats.vercel.app/api/pin/?username=Blugin&repo=MultilingualConfigTrait&theme=nord" />
+    <imgsrc="https://github-readme-stats.vercel.app/api/pin/?username=Blugin&repo=MultilingualConfigTrait&theme=nord" />
   </a>
   <a href="https://github.com/Blugin/LocaleConverter">
-    <img align="right" src="https://github-readme-stats.vercel.app/api/pin/?username=Blugin&repo=LocaleConverter&theme=nord" />
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=Blugin&repo=LocaleConverter&theme=nord" />
   </a>
-</p>
+</div>
   
 <br><br><br><br>
   
