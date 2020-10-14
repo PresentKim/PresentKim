@@ -1,4 +1,6 @@
-![](https://github-readme-stats.vercel.app/api?username=PresentKim&show_icons=true&include_all_commits=true&count_private=true&line_height=32&theme=vue&&bg_color=efefef) ![](https://github-contribution-stats.vercel.app/api/?username=PresentKim)
+![](https://github-readme-stats.vercel.app/api?username=PresentKim&show_icons=true&include_all_commits=true&line_height=33&count_private=true&theme=nord)
+![](https://github-readme-stats.vercel.app/api/top-langs?username=PresentKim&langs_count=4&count_private=true&theme=nord)
+![](https://github-profile-trophy.vercel.app/?username=PresentKim&margin-w=28&margin-h=15&theme=nord)
 
 ![C](https://img.shields.io/badge/-C-efefef?&logo=C)
 ![C++](https://img.shields.io/badge/-C++-efefef?&logo=c%2b%2b&logoColor=059)
@@ -9,7 +11,6 @@
 ![HTML5](https://img.shields.io/badge/-HTML5-efefef?&logo=html5)
 ![SCSS](https://img.shields.io/badge/-SCSS-efefef?&logo=sass)
 ![SVG](https://img.shields.io/badge/-SVG-efefef?&logo=svg)
-<img align="right" src="https://spotify-github-profile.vercel.app/api/view?uid=22mtl1ixl9p713fdhbi678bcu&cover_image=true&theme=novatorem">
 
 ![GIT](https://img.shields.io/badge/-Git-efefef?&logo=git)
 ![GITHUB](https://img.shields.io/badge/-Github-efefef?&logo=github&logoColor=000)
@@ -19,9 +20,6 @@
 ![VueJS](https://img.shields.io/badge/-VueJS-efefef?&logo=vue.js)
 ![Hexo](https://img.shields.io/badge/-Hexo-efefef?&logo=hexo)
 ![SvelteJS](https://img.shields.io/badge/-Svelte-efefef?&logo=svelte)
-
-![](https://github-profile-trophy.vercel.app/?username=PresentKim&rank=SECRET,SSS,SS,S,AAA,AA,A&margin-w=15&margin-h=15)
-![](https://api.fizmasoft.uz/mcard/rank?username=PresentKim&country_code=south_korea&show_private=true)
 
   
 ----------------
