@@ -19,8 +19,8 @@
 ![Hexo](https://img.shields.io/badge/-Hexo-efefef?&logo=hexo)
 ![SvelteJS](https://img.shields.io/badge/-Svelte-efefef?&logo=svelte)
 
-<img align="right" src="https://spotify-github-profile.vercel.app/api/view?uid=22mtl1ixl9p713fdhbi678bcu&cover_image=true&theme=novatorem">
-<img src="https://github-profile-trophy.vercel.app/?username=PresentKim&rank=SECRET,SSS,SS,S,AAA,AA,A&margin-w=15&margin-h=15">
+<img src="https://github-profile-trophy.vercel.app/?username=PresentKim&rank=SECRET,SSS,SS,S,AAA,AA,A&margin-w=15&margin-h=15"> <img align="right" src="https://spotify-github-profile.vercel.app/api/view?uid=22mtl1ixl9p713fdhbi678bcu&cover_image=true&theme=novatorem">
+
   
 ----------------
  
