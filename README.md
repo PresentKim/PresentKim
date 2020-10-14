@@ -73,3 +73,5 @@
 [![](https://img.shields.io/static/v1?label=InstantFurnace&message=private&labelColor=blue)](https://github.com/Sagwa-plugins/InstantFurnace)
 [![](https://img.shields.io/static/v1?label=old-plugins&message=Archived&labelColor=blue&color=green)](https://github.com/PresentKim/ArchivedOldPlugins-PMMP)
 [![](https://img.shields.io/static/v1?label=singleton-plugins&message=Archived&labelColor=blue&color=green)](https://github.com/organization/singleton-PMMP)
+
+<!--START_SECTION:activity-->
