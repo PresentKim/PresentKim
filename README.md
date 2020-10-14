@@ -1,3 +1,8 @@
+<p align="center"> 
+  <img src="https://profile-counter.glitch.me/PresentKim/count.svg"/> <br>
+  <img src="https://github4life.herokuapp.com/presentkim.gif?z=6"/>
+</p>
+
 #### :star:저는 제 이름인 김현재에서 따온 *PresentKim*라는 닉네임으로 활동중인 컴퓨터 소프트웨어과 학생입니다.
 
 전 [Minecraft:BE](https://minecraft.gamepedia.com/Bedrock_Edition)용 서버 소프트웨어인 [Pocketmine-MP](https://github.com/pmmp/PocketMine-MP)의 플러그인을 만들면서 프로그래밍을 시작했습니다  
