@@ -1,5 +1,23 @@
 ![](https://github-readme-stats.vercel.app/api?username=PresentKim&show_icons=true&include_all_commits=true&count_private=true&line_height=40&theme=vue&&bg_color=efefef) ![](https://github-contribution-stats.vercel.app/api/?username=PresentKim)
 
+![C](https://img.shields.io/badge/-C-efefef?&logo=C)
+![C++](https://img.shields.io/badge/-C++-efefef?&logo=c%2b%2b&logoColor=059)
+![Java](https://img.shields.io/badge/-Java-efefef?&logo=Java&logoColor=F70)
+![PHP](https://img.shields.io/badge/-PHP-efefef?&logo=PHP&logoColor=858)
+![JavaScript](https://img.shields.io/badge/-JavaScript-efefef?&logo=JavaScript)
+![SQL](https://img.shields.io/badge/-SQL-efefef?&logo=MySQL)
+![HTML5](https://img.shields.io/badge/-HTML5-efefef?&logo=html5)
+![SCSS](https://img.shields.io/badge/-SCSS-efefef?&logo=sass)
+![SVG](https://img.shields.io/badge/-SVG-efefef?&logo=svg)
+
+![GIT](https://img.shields.io/badge/-Git-efefef?&logo=git)
+![GITHUB](https://img.shields.io/badge/-Github-efefef?&logo=github&logoColor=000)
+![Linux](https://img.shields.io/badge/-Linux-efefef?&logo=linux&logoColor=004)
+![Ubuntu](https://img.shields.io/badge/-Ubuntu-efefef?&logo=ubuntu)
+![NodeJS](https://img.shields.io/badge/-NodeJS-efefef?&logo=node.js)
+![VueJS](https://img.shields.io/badge/-VueJS-efefef?&logo=vue.js)
+![SvelteJS](https://img.shields.io/badge/-Svelte-efefef?&logo=svelte)
+
 #### :star:저는 제 이름인 김현재에서 따온 *PresentKim*라는 닉네임으로 활동중인 컴퓨터 소프트웨어과 학생입니다.
 전 [Minecraft:BE](https://minecraft.gamepedia.com/Bedrock_Edition)용 서버 소프트웨어인 [Pocketmine-MP](https://github.com/pmmp/PocketMine-MP)의 플러그인을 만들면서 프로그래밍을 시작했습니다  
   
