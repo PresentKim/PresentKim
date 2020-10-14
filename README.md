@@ -30,12 +30,21 @@
   
 ----------------
  
-## :book: Web (4 project)
-[![PresentKim-hexo](https://img.shields.io/static/v1?label=PresentKim&message=hexo-site&color=success&logo=hexo)](https://github.com/PresentKim/site-hexo)
-[![PresentKim-vue](https://img.shields.io/static/v1?label=PresentKim&message=vue-site&color=success&logo=Vue.js)](https://github.com/PresentKim/site-vue)
-[![Blugin-sapper](https://img.shields.io/static/v1?label=Blugin&message=sapper-site&color=success&logo=svelte)](https://github.com/Blugin/sapper-site)
-[![Blugin-HTML5UP](https://img.shields.io/static/v1?label=Blugin&message=html5up-site&color=success&logo=html5)](https://github.com/Blugin/blugin.github.io)
+## :book: Web (3 project)
 
+<p align="center">
+  <a href="https://github.com/PresentKim/site-hexo">
+    <img align="left" src="https://github-readme-stats.vercel.app/api/pin/?username=PresentKim&repo=site-hexo&theme=nord&show_owner=true" />
+  </a>
+  <a href="https://github.com/PresentKim/site-vue">
+    <img align="right" src="https://github-readme-stats.vercel.app/api/pin/?username=PresentKim&repo=site-vue&theme=nord&show_owner=true" />
+  </a>
+</p>
+<br>
+<p align="center"><a href="https://github.com/Blugin/sapper-site">
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=Blugin&repo=blugin.github.io&theme=nord&show_owner=true" />
+</a></p>
+  
   
 ## :wrench: Pocketmine-MP plug-in (40 project + 2 archive)
 
