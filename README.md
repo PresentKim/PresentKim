@@ -34,8 +34,8 @@
 # :book: Web Projects
 <div align="center">
   
-  [![-](https://github-readme-stats.vercel.app/api/pin/?username=PresentKim&repo=site-hexo&theme=nord&show_owner=true)](https://github.com/PresentKim/site-hexo)
-  [![-](https://github-readme-stats.vercel.app/api/pin/?username=Blugin&repo=blugin.github.io&theme=nord&show_owner=true)](https://github.com/Blugin/blugin.github.io)
+  [![-](https://github-readme-stats.vercel.app/api/pin/?show_owner=true&theme=nord&username=PresentKim&repo=site-hexo)](https://github.com/PresentKim/site-hexo)
+  [![-](https://github-readme-stats.vercel.app/api/pin/?show_owner=true&theme=nord&username=Blugin&repo=blugin.github.io)](https://github.com/Blugin/blugin.github.io)
   
 </div>
   
@@ -43,36 +43,22 @@
   
 # :package: PMMP virion projects
 <div align="center">
-  <a href="https://github.com/Blugin/libtranslator">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=Blugin&repo=libtranslator&theme=nord" />
-  </a>
-  <a href="https://github.com/Blugin/libcommand">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=Blugin&repo=libcommand&theme=nord" />
-  </a>
-  <a href="https://github.com/Blugin/arrayutils">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=Blugin&repo=arrayutils&theme=nord" />
-  </a>
-  <a href="https://github.com/Blugin/stringutils">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=Blugin&repo=stringutils&theme=nord" />
-  </a>
-  <a href="https://github.com/Blugin/BannerFactory">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=Blugin&repo=BannerFactory&theme=nord" />
-  </a>
-  <a href="https://github.com/Blugin/InvMenuPlus">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=Blugin&repo=InvMenuPlus&theme=nord" />
-  </a>
-  <a href="https://github.com/Blugin/SelfFactoryTrait">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=Blugin&repo=SelfFactoryTrait&theme=nord" />
-  </a>
-  <a href="https://github.com/Blugin/SingletonTrait">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=Blugin&repo=SingletonTrait&theme=nord" />
-  </a>
-  <a href="https://github.com/Blugin/MultilingualConfigTrait">
-    <imgsrc="https://github-readme-stats.vercel.app/api/pin/?username=Blugin&repo=MultilingualConfigTrait&theme=nord" />
-  </a>
-  <a href="https://github.com/Blugin/LocaleConverter">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=Blugin&repo=LocaleConverter&theme=nord" />
-  </a>
+  
+  [![-](https://github-readme-stats.vercel.app/api/pin/?show_owner=true&theme=nord&username=Blugin&repo=libtranslator)](https://github.com/Blugin/libtranslator)
+  [![-](https://github-readme-stats.vercel.app/api/pin/?show_owner=true&theme=nord&username=Blugin&repo=libcommand)](https://github.com/Blugin/libcommand)
+  
+  [![-](https://github-readme-stats.vercel.app/api/pin/?show_owner=true&theme=nord&username=Blugin&repo=arrayutils)](https://github.com/Blugin/arrayutils)
+  [![-](https://github-readme-stats.vercel.app/api/pin/?show_owner=true&theme=nord&username=Blugin&repo=stringutils)](https://github.com/Blugin/stringutils)
+  
+  [![-](https://github-readme-stats.vercel.app/api/pin/?show_owner=true&theme=nord&username=Blugin&repo=BannerFactory)](https://github.com/Blugin/BannerFactory)
+  [![-](https://github-readme-stats.vercel.app/api/pin/?show_owner=true&theme=nord&username=Blugin&repo=InvMenuPlus)](https://github.com/Blugin/InvMenuPlus)
+  
+  [![-](https://github-readme-stats.vercel.app/api/pin/?show_owner=true&theme=nord&username=Blugin&repo=SelfFactoryTrait)](https://github.com/Blugin/SelfFactoryTrait)
+  [![-](https://github-readme-stats.vercel.app/api/pin/?show_owner=true&theme=nord&username=Blugin&repo=SingletonTrait)](https://github.com/Blugin/SingletonTrait)
+  
+  [![-](https://github-readme-stats.vercel.app/api/pin/?show_owner=true&theme=nord&username=Blugin&repo=MultilingualConfigTrait)](https://github.com/Blugin/MultilingualConfigTrait)
+  [![-](https://github-readme-stats.vercel.app/api/pin/?show_owner=true&theme=nord&username=Blugin&repo=LocaleConverter)](https://github.com/Blugin/LocaleConverter)
+  
 </div>
   
 <br><br><br><br>
