@@ -1,7 +1,7 @@
 <p align="center"> 
   <img src="https://profile-counter.glitch.me/PresentKim/count.svg"/> <br>
-  <img src="https://github4life.herokuapp.com/presentkim.gif?z=6"/>
-</p>
+  <img src="https://github-readme-stats.vercel.app/api?username=PresentKim&show_icons=true&include_all_commits=true&count_private=true&hide_rank=true&hide_border=true"/> <br>
+</p>  
 
 #### :star:저는 제 이름인 김현재에서 따온 *PresentKim*라는 닉네임으로 활동중인 컴퓨터 소프트웨어과 학생입니다.
 
