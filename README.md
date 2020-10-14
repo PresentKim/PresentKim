@@ -64,54 +64,24 @@
 <br><br><br><br>
   
 # :package: PMMP plugin projects
-<p align="center">
-  <a href="https://github.com/Blugin/PaymentPool">
-    <img align="left" src="https://github-readme-stats.vercel.app/api/pin/?username=Blugin&repo=PaymentPool&theme=nord&show_owner=true" />
-  </a>
-  <a href="https://github.com/Blugin/BluginTools">
-    <img align="right" src="https://github-readme-stats.vercel.app/api/pin/?username=Blugin&repo=BluginTools&theme=nord&show_owner=true" />
-  </a>
-</p>
-<p align="center">
-  <a href="https://github.com/Blugin/Lifespan">
-    <img align="left" src="https://github-readme-stats.vercel.app/api/pin/?username=Blugin&repo=Lifespan&theme=nord&show_owner=true" />
-  </a>
-  <a href="https://github.com/Blugin/DataCleaner">
-    <img align="right" src="https://github-readme-stats.vercel.app/api/pin/?username=Blugin&repo=DataCleaner&theme=nord&show_owner=true" />
-  </a>
-</p>
-<p align="center">
-  <a href="https://github.com/Blugin/SkinFactory">
-    <img align="left" src="https://github-readme-stats.vercel.app/api/pin/?username=Blugin&repo=SkinFactory&theme=nord&show_owner=true" />
-  </a>
-  <a href="https://github.com/Blugin/ChatThin">
-    <img align="right" src="https://github-readme-stats.vercel.app/api/pin/?username=Blugin&repo=ChatThin&theme=nord&show_owner=true" />
-  </a>
-</p>
-<p align="center">
-  <a href="https://github.com/Blugin/IgnoreCase">
-    <img align="left" src="https://github-readme-stats.vercel.app/api/pin/?username=Blugin&repo=IgnoreCase&theme=nord&show_owner=true" />
-  </a>
-  <a href="https://github.com/Blugin/PersonaSkin">
-    <img align="right" src="https://github-readme-stats.vercel.app/api/pin/?username=Blugin&repo=PersonaSkin&theme=nord&show_owner=true" />
-  </a>
-</p>
-<p align="center">
-  <a href="https://github.com/Blugin/AvoidSuffocation">
-    <img align="left" src="https://github-readme-stats.vercel.app/api/pin/?username=Blugin&repo=AvoidSuffocation&theme=nord&show_owner=true" />
-  </a>
-  <a href="https://github.com/Blugin/ChunkLoader">
-    <img align="right" src="https://github-readme-stats.vercel.app/api/pin/?username=Blugin&repo=ChunkLoader&theme=nord&show_owner=true" />
-  </a>
-</p>
-<p align="center">
-  <a href="https://github.com/Blugin/AvoidSuffocation">
-    <img align="left" src="https://github-readme-stats.vercel.app/api/pin/?username=Blugin&repo=AvoidSuffocation&theme=nord&show_owner=true" />
-  </a>
-  <a href="https://github.com/Blugin/ChunkLoader">
-    <img align="right" src="https://github-readme-stats.vercel.app/api/pin/?username=Blugin&repo=ChunkLoader&theme=nord&show_owner=true" />
-  </a>
-</p>
+<div align="center">
+  
+  [![-](https://github-readme-stats.vercel.app/api/pin/?show_owner=true&theme=nord&username=Blugin&repo=PaymentPool)](https://github.com/Blugin/PaymentPool)
+  [![-](https://github-readme-stats.vercel.app/api/pin/?show_owner=true&theme=nord&username=Blugin&repo=BluginTools)](https://github.com/Blugin/BluginTools)
+  
+  [![-](https://github-readme-stats.vercel.app/api/pin/?show_owner=true&theme=nord&username=Blugin&repo=Lifespan)](https://github.com/Blugin/Lifespan)
+  [![-](https://github-readme-stats.vercel.app/api/pin/?show_owner=true&theme=nord&username=Blugin&repo=DataCleaner)](https://github.com/Blugin/DataCleaner)
+  
+  [![-](https://github-readme-stats.vercel.app/api/pin/?show_owner=true&theme=nord&username=Blugin&repo=SkinFactory)](https://github.com/Blugin/SkinFactory)
+  [![-](https://github-readme-stats.vercel.app/api/pin/?show_owner=true&theme=nord&username=Blugin&repo=PersonaSkin)](https://github.com/Blugin/PersonaSkin)
+  
+  [![-](https://github-readme-stats.vercel.app/api/pin/?show_owner=true&theme=nord&username=Blugin&repo=IgnoreCase)](https://github.com/Blugin/IgnoreCase)
+  [![-](https://github-readme-stats.vercel.app/api/pin/?show_owner=true&theme=nord&username=Blugin&repo=SingletonTrait)](https://github.com/Blugin/SingletonTrait)
+  
+  [![-](https://github-readme-stats.vercel.app/api/pin/?show_owner=true&theme=nord&username=Blugin&repo=AvoidSuffocation)](https://github.com/Blugin/AvoidSuffocation)
+  [![-](https://github-readme-stats.vercel.app/api/pin/?show_owner=true&theme=nord&username=Blugin&repo=ChunkLoader)](https://github.com/Blugin/ChunkLoader)
+  
+</div>
   
 <br><br><br><br>
   
