@@ -34,7 +34,6 @@
 # :book: Web Projects
 <div align="center">
   
-  [![-](https://github-readme-stats.vercel.app/api/pin/?show_owner=true&theme=nord&username=PresentKim&repo=site-hexo)](https://github.com/PresentKim/site-hexo)
   [![-](https://github-readme-stats.vercel.app/api/pin/?show_owner=true&theme=nord&username=Blugin&repo=blugin.github.io)](https://github.com/Blugin/blugin.github.io)
   
 </div>
@@ -51,7 +50,7 @@
   [![-](https://github-readme-stats.vercel.app/api/pin/?show_owner=true&theme=nord&username=PresentKim&repo=stringutils)](https://github.com/PresentKim/stringutils)
   
   [![-](https://github-readme-stats.vercel.app/api/pin/?show_owner=true&theme=nord&username=PresentKim&repo=banner-factory)](https://github.com/PresentKim/banner-factory)
-  [![-](https://github-readme-stats.vercel.app/api/pin/?show_owner=true&theme=nord&username=Blugin&repo=InvMenuPlus)](https://github.com/Blugin/InvMenuPlus)
+  [![-](https://github-readme-stats.vercel.app/api/pin/?show_owner=true&theme=nord&username=PresentKim&repo=InvMenuPlus)](https://github.com/PresentKim/InvMenuPlus)
   
   [![-](https://github-readme-stats.vercel.app/api/pin/?show_owner=true&theme=nord&username=PresentKim&repo=selffactory-trait)](https://github.com/PresentKim/selffactory-trait)
   [![-](https://github-readme-stats.vercel.app/api/pin/?show_owner=true&theme=nord&username=PresentKim&repo=singleton-trait)](https://github.com/PresentKim/singleton-trait)
