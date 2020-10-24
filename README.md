@@ -52,10 +52,10 @@
   [![-](https://github-readme-stats.vercel.app/api/pin/?show_owner=true&theme=nord&username=PresentKim&repo=banner-factory)](https://github.com/PresentKim/banner-factory)
   [![-](https://github-readme-stats.vercel.app/api/pin/?show_owner=true&theme=nord&username=PresentKim&repo=InvMenuPlus)](https://github.com/PresentKim/InvMenuPlus)
   
-  [![-](https://github-readme-stats.vercel.app/api/pin/?show_owner=true&theme=nord&username=PresentKim&repo=selffactory-trait)](https://github.com/PresentKim/selffactory-trait)
+  [![-](https://github-readme-stats.vercel.app/api/pin/?show_owner=true&theme=nord&username=PresentKim&repo=self-factory-trait)](https://github.com/PresentKim/self-factory-trait)
   [![-](https://github-readme-stats.vercel.app/api/pin/?show_owner=true&theme=nord&username=PresentKim&repo=singleton-trait)](https://github.com/PresentKim/singleton-trait)
   
-  [![-](https://github-readme-stats.vercel.app/api/pin/?show_owner=true&theme=nord&username=PresentKim&repo=multilingualconfig-trait)](https://github.com/PresentKim/multilingualconfig-trait)
+  [![-](https://github-readme-stats.vercel.app/api/pin/?show_owner=true&theme=nord&username=PresentKim&repo=multilingual-config-trait)](https://github.com/PresentKim/multilingual-config-trait)
   [![-](https://github-readme-stats.vercel.app/api/pin/?show_owner=true&theme=nord&username=PresentKim&repo=locale-converter)](https://github.com/PresentKim/locale-converter)
   
 </div>
@@ -68,16 +68,13 @@
   [![-](https://github-readme-stats.vercel.app/api/pin/?show_owner=true&theme=nord&username=Blugin&repo=PaymentPool)](https://github.com/Blugin/PaymentPool)
   [![-](https://github-readme-stats.vercel.app/api/pin/?show_owner=true&theme=nord&username=Blugin&repo=BluginTools)](https://github.com/Blugin/BluginTools)
   
-  [![-](https://github-readme-stats.vercel.app/api/pin/?show_owner=true&theme=nord&username=Blugin&repo=Lifespan)](https://github.com/Blugin/Lifespan)
+  [![-](https://github-readme-stats.vercel.app/api/pin/?show_owner=true&theme=nord&username=PresentKim&repo=Lifespan)](https://github.com/PresentKim/Lifespan)
   [![-](https://github-readme-stats.vercel.app/api/pin/?show_owner=true&theme=nord&username=Blugin&repo=DataCleaner)](https://github.com/Blugin/DataCleaner)
   
   [![-](https://github-readme-stats.vercel.app/api/pin/?show_owner=true&theme=nord&username=Blugin&repo=SkinFactory)](https://github.com/Blugin/SkinFactory)
   [![-](https://github-readme-stats.vercel.app/api/pin/?show_owner=true&theme=nord&username=Blugin&repo=PersonaSkin)](https://github.com/Blugin/PersonaSkin)
   
   [![-](https://github-readme-stats.vercel.app/api/pin/?show_owner=true&theme=nord&username=Blugin&repo=IgnoreCase)](https://github.com/Blugin/IgnoreCase)
-  [![-](https://github-readme-stats.vercel.app/api/pin/?show_owner=true&theme=nord&username=Blugin&repo=SingletonTrait)](https://github.com/Blugin/SingletonTrait)
-  
-  [![-](https://github-readme-stats.vercel.app/api/pin/?show_owner=true&theme=nord&username=Blugin&repo=AvoidSuffocation)](https://github.com/Blugin/AvoidSuffocation)
   [![-](https://github-readme-stats.vercel.app/api/pin/?show_owner=true&theme=nord&username=Blugin&repo=ChunkLoader)](https://github.com/Blugin/ChunkLoader)
   
 </div>
