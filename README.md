@@ -83,5 +83,5 @@
   
 # :zap: Recent activity
 <!--START_SECTION:activity-->
-1. ❗️ Opened issue [#205](https://github.com/rossjrw/rossjrw/issues/205) in [rossjrw/rossjrw](https://github.com/rossjrw/rossjrw)
+1. 🎉 Merged PR [#1](https://github.com/PresentKim/libtranslator/pull/1) in [PresentKim/libtranslator](https://github.com/PresentKim/libtranslator)
 <!--END_SECTION:activity-->
