@@ -83,5 +83,5 @@
   
 # :zap: Recent activity
 <!--START_SECTION:activity-->
-1. 🎉 Merged PR [#1](https://github.com/PresentKim/libtranslator/pull/1) in [PresentKim/libtranslator](https://github.com/PresentKim/libtranslator)
+1. 🗣 Commented on [#1](https://github.com/PresentKim/png-converter/issues/1) in [PresentKim/png-converter](https://github.com/PresentKim/png-converter)
 <!--END_SECTION:activity-->
