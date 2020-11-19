@@ -83,5 +83,5 @@
   
 # :zap: Recent activity
 <!--START_SECTION:activity-->
-1. ❗️ Closed issue [#1](https://github.com/PresentKim/png-converter/issues/1) in [PresentKim/png-converter](https://github.com/PresentKim/png-converter)
+1. 🗣 Commented on [#2](https://github.com/PresentKim/ProtocolPatch/issues/2) in [PresentKim/ProtocolPatch](https://github.com/PresentKim/ProtocolPatch)
 <!--END_SECTION:activity-->
