@@ -83,5 +83,5 @@
   
 # :zap: Recent activity
 <!--START_SECTION:activity-->
-1. 🗣 Commented on [#2](https://github.com/PresentKim/ProtocolPatch/issues/2) in [PresentKim/ProtocolPatch](https://github.com/PresentKim/ProtocolPatch)
+1. 🎉 Merged PR [#6](https://github.com/PresentKim/png2svg/pull/6) in [PresentKim/png2svg](https://github.com/PresentKim/png2svg)
 <!--END_SECTION:activity-->
