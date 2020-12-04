@@ -83,5 +83,5 @@
   
 # :zap: Recent activity
 <!--START_SECTION:activity-->
-1. 🎉 Merged PR [#6](https://github.com/PresentKim/png2svg/pull/6) in [PresentKim/png2svg](https://github.com/PresentKim/png2svg)
+1. ❗️ Closed issue [#3](https://github.com/PresentKim/PersonaSkin/issues/3) in [PresentKim/PersonaSkin](https://github.com/PresentKim/PersonaSkin)
 <!--END_SECTION:activity-->
