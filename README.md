@@ -83,5 +83,5 @@
   
 # :zap: Recent activity
 <!--START_SECTION:activity-->
-1. 🗣 Commented on [#1](https://github.com/PresentKim/runtimeid-polyfill/issues/1) in [PresentKim/runtimeid-polyfill](https://github.com/PresentKim/runtimeid-polyfill)
+1. 🎉 Merged PR [#7](https://github.com/PresentKim/PersonaSkin/pull/7) in [PresentKim/PersonaSkin](https://github.com/PresentKim/PersonaSkin)
 <!--END_SECTION:activity-->
