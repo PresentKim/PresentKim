@@ -83,5 +83,5 @@
   
 # :zap: Recent activity
 <!--START_SECTION:activity-->
-1. 🎉 Merged PR [#7](https://github.com/PresentKim/PersonaSkin/pull/7) in [PresentKim/PersonaSkin](https://github.com/PresentKim/PersonaSkin)
+1. 🗣 Commented on [#2](https://github.com/rita-kr/plugins-test/issues/2) in [rita-kr/plugins-test](https://github.com/rita-kr/plugins-test)
 <!--END_SECTION:activity-->
