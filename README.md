@@ -83,5 +83,5 @@
   
 # :zap: Recent activity
 <!--START_SECTION:activity-->
-1. 🗣 Commented on [#1](https://github.com/Blugin/ShowySowing/issues/1) in [Blugin/ShowySowing](https://github.com/Blugin/ShowySowing)
+1. 🎉 Merged PR [#1](https://github.com/Blugin/ShowySowing/pull/1) in [Blugin/ShowySowing](https://github.com/Blugin/ShowySowing)
 <!--END_SECTION:activity-->
