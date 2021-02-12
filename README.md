@@ -83,5 +83,5 @@
   
 # :zap: Recent activity
 <!--START_SECTION:activity-->
-1. 🗣 Commented on [#2](https://github.com/rita-kr/plugins-test/issues/2) in [rita-kr/plugins-test](https://github.com/rita-kr/plugins-test)
+1. 🗣 Commented on [#1](https://github.com/Blugin/ShowySowing/issues/1) in [Blugin/ShowySowing](https://github.com/Blugin/ShowySowing)
 <!--END_SECTION:activity-->
