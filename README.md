@@ -32,7 +32,7 @@
 # :package: PMMP virion projects
 <div align="center">
   
-  [![-](https://github-readme-stats.vercel.app/api/pin/?show_owner=true&theme=nord&username=PresentKim&repo=libtranslator)](https://github.com/BluPresentKimgin/libtranslator)
+  [![-](https://github-readme-stats.vercel.app/api/pin/?show_owner=true&theme=nord&username=PresentKim&repo=libtranslator)](https://github.com/PresentKim/libtranslator)
   [![-](https://github-readme-stats.vercel.app/api/pin/?show_owner=true&theme=nord&username=PresentKim&repo=libcommand)](https://github.com/PresentKim/libcommand)
   
   [![-](https://github-readme-stats.vercel.app/api/pin/?show_owner=true&theme=nord&username=PresentKim&repo=arrayutils)](https://github.com/PresentKim/arrayutils)
