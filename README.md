@@ -93,5 +93,5 @@
   
 # :zap: Recent activity
 <!--START_SECTION:activity-->
-1. 🎉 Merged PR [#1](https://github.com/Blugin/ShowySowing/pull/1) in [Blugin/ShowySowing](https://github.com/Blugin/ShowySowing)
+1. 🎉 Merged PR [#7](https://github.com/PresentKim/png2svg/pull/7) in [PresentKim/png2svg](https://github.com/PresentKim/png2svg)
 <!--END_SECTION:activity-->
