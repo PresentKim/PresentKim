@@ -93,5 +93,5 @@
   
 # :zap: Recent activity
 <!--START_SECTION:activity-->
-1. 🎉 Merged PR [#15](https://github.com/organization/Kookie/pull/15) in [organization/Kookie](https://github.com/organization/Kookie)
+1. 🎉 Merged PR [#12](https://github.com/organization/Kookie/pull/12) in [organization/Kookie](https://github.com/organization/Kookie)
 <!--END_SECTION:activity-->
