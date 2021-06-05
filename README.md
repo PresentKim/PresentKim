@@ -93,5 +93,5 @@
   
 # :zap: Recent activity
 <!--START_SECTION:activity-->
-1. 🎉 Merged PR [#7](https://github.com/PresentKim/png2svg/pull/7) in [PresentKim/png2svg](https://github.com/PresentKim/png2svg)
+1. 🎉 Merged PR [#15](https://github.com/organization/Kookie/pull/15) in [organization/Kookie](https://github.com/organization/Kookie)
 <!--END_SECTION:activity-->
