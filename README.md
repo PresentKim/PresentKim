@@ -93,5 +93,5 @@
   
 # :zap: Recent activity
 <!--START_SECTION:activity-->
-1. 💪 Opened PR [#28](https://github.com/organization/Kookie/pull/28) in [organization/Kookie](https://github.com/organization/Kookie)
+1. 💪 Opened PR [#30](https://github.com/organization/Kookie/pull/30) in [organization/Kookie](https://github.com/organization/Kookie)
 <!--END_SECTION:activity-->
