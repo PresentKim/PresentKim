@@ -93,5 +93,5 @@
   
 # :zap: Recent activity
 <!--START_SECTION:activity-->
-1. 💪 Opened PR [#30](https://github.com/organization/Kookie/pull/30) in [organization/Kookie](https://github.com/organization/Kookie)
+1. 🎉 Merged PR [#4](https://github.com/Blugin/blugin.github.io/pull/4) in [Blugin/blugin.github.io](https://github.com/Blugin/blugin.github.io)
 <!--END_SECTION:activity-->
