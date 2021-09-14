@@ -93,5 +93,5 @@
   
 # :zap: Recent activity
 <!--START_SECTION:activity-->
-1. 🎉 Merged PR [#4](https://github.com/Blugin/blugin.github.io/pull/4) in [Blugin/blugin.github.io](https://github.com/Blugin/blugin.github.io)
+1. ❗️ Closed issue [#2](https://github.com/PresentKim/runtimeid-polyfill/issues/2) in [PresentKim/runtimeid-polyfill](https://github.com/PresentKim/runtimeid-polyfill)
 <!--END_SECTION:activity-->
