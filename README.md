@@ -93,5 +93,5 @@
   
 # :zap: Recent activity
 <!--START_SECTION:activity-->
-1. ❗️ Closed issue [#1](https://github.com/PresentKim/runtimeid-polyfill/issues/1) in [PresentKim/runtimeid-polyfill](https://github.com/PresentKim/runtimeid-polyfill)
+1. 🗣 Commented on [#3](https://github.com/PresentKim/runtimeid-polyfill/issues/3) in [PresentKim/runtimeid-polyfill](https://github.com/PresentKim/runtimeid-polyfill)
 <!--END_SECTION:activity-->
