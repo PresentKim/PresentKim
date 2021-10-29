@@ -93,5 +93,5 @@
   
 # :zap: Recent activity
 <!--START_SECTION:activity-->
-1. ❌ Closed PR [#1](https://github.com/PresentKim-pm/ExpansionPack/pull/1) in [PresentKim-pm/ExpansionPack](https://github.com/PresentKim-pm/ExpansionPack)
+1. 🎉 Merged PR [#2](https://github.com/presentkim-pm/accessor/pull/2) in [presentkim-pm/accessor](https://github.com/presentkim-pm/accessor)
 <!--END_SECTION:activity-->
