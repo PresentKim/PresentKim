@@ -20,6 +20,7 @@
 ![npm](https://img.shields.io/badge/npm-CB3837.svg?&style=for-the-badge&logo=npm&logoColor=white)
 
 ![PHP](https://img.shields.io/badge/PHP-777BB4.svg?&style=for-the-badge&logo=php&logoColor=white)
+![Packagist](https://img.shields.io/badge/Packagist-F28D1A.svg?&style=for-the-badge&logo=packagist&logoColor=white)
 ![composer](https://img.shields.io/badge/composer-885630.svg?&style=for-the-badge&logo=composer&logoColor=white)
 
 ![HTML5](https://img.shields.io/badge/HTML5-E34F26.svg?&style=for-the-badge&logo=html5&logoColor=white)
@@ -44,7 +45,7 @@
 
 
 # :mailbox_with_mail: Contacts
-[![Blog](http://img.shields.io/badge/Blog-black?style=flat-square&logo=github&logoColor=white)](https://present.kim/)
+[![Blog](http://img.shields.io/badge/Blog-000000?style=flat-square&logo=github&logoColor=white)](https://present.kim/)
 [![Mail](https://img.shields.io/badge/Gmail-d14836?style=flat-square&logo=gmail&logoColor=white)](mailto:debe3721@gmail.com)
 [![Discord](https://img.shields.io/badge/Discord-5865F2?style=flat-square&logo=discord&logoColor=white)](https://discordapp.com/users/345772340279508993)
 
