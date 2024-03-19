@@ -14,17 +14,17 @@
 ![Maven](https://img.shields.io/badge/Maven-C71A36.svg?&style=for-the-badge&logo=apachemaven&logoColor=white)
 ![gradle](https://img.shields.io/badge/Gradle-02303A.svg?&style=for-the-badge&logo=gradle&logoColor=white)
 
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E.svg?&style=for-the-badge&logo=JavaScript&logoColor=white)
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6.svg?&style=for-the-badge&logo=TypeScript&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E.svg?&style=for-the-badge&logo=javascript&logoColor=white)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6.svg?&style=for-the-badge&logo=typescript&logoColor=white)
 ![Node.js](https://img.shields.io/badge/Node.js-339933.svg?&style=for-the-badge&logo=nodedotjs&logoColor=white)
 ![npm](https://img.shields.io/badge/npm-CB3837.svg?&style=for-the-badge&logo=npm&logoColor=white)
 
-![PHP](https://img.shields.io/badge/PHP-777BB4.svg?&style=for-the-badge&logo=PHP&logoColor=white)
+![PHP](https://img.shields.io/badge/PHP-777BB4.svg?&style=for-the-badge&logo=php&logoColor=white)
 ![composer](https://img.shields.io/badge/composer-885630.svg?&style=for-the-badge&logo=composer&logoColor=white)
 
 ![HTML5](https://img.shields.io/badge/HTML5-E34F26.svg?&style=for-the-badge&logo=html5&logoColor=white)
 ![Svelte](https://img.shields.io/badge/Svelte-FF3E00.svg?&style=for-the-badge&logo=svelte&logoColor=white)
-![Vue.js](https://img.shields.io/badge/vuedotjs-4FC08D.svg?&style=for-the-badge&logo=Vue.js&logoColor=white) 
+![Vue.js](https://img.shields.io/badge/Vue.js-4FC08D.svg?&style=for-the-badge&logo=vuedotjs&logoColor=white) 
 
 ![CSS3](https://img.shields.io/badge/CSS3-1572B6.svg?&style=for-the-badge&logo=css3&logoColor=white)
 ![Tailwind CSS](https://img.shields.io/badge/Tailwind%20CSS-06B6D4.svg?&style=for-the-badge&logo=tailwindcss&logoColor=white) 
