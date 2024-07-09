@@ -1,4 +1,4 @@
-# KIM HYEONJAE `PresentKim`
+# KIM HYEONJAE `PresentKim` <img src="https://render.gitanimals.org/lines/PresentKim?pet-id=598384077865612447" width="192" height="108"/>
 
 ![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2FPresentKim&title=hits&edge_flat=false)
 
@@ -48,15 +48,3 @@
 [![Blog](http://img.shields.io/badge/Blog-000000?style=flat-square&logo=github&logoColor=white)](https://present.kim/)
 [![Mail](https://img.shields.io/badge/Gmail-d14836?style=flat-square&logo=gmail&logoColor=white)](mailto:debe3721@gmail.com)
 [![Discord](https://img.shields.io/badge/Discord-5865F2?style=flat-square&logo=discord&logoColor=white)](https://discordapp.com/users/345772340279508993)
-
-<br><br><br><br>
-
-
-<a href="https://github.com/devxb/gitanimals">
-  <img
-    src="https://render.gitanimals.org/lines/PresentKim?pet-id=598384077865612447"
-    width="192"
-    height="108"
-  />
-</a>
-  
