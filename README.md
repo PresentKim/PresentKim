@@ -51,7 +51,12 @@
 
 <br><br><br><br>
 
-# :zap: Recent activity
-<!--START_SECTION:activity-->
-1. 🎉 Merged PR [#2](https://github.com/presentkim-pm/accessor/pull/2) in [presentkim-pm/accessor](https://github.com/presentkim-pm/accessor)
-<!--END_SECTION:activity-->
+
+<a href="https://github.com/devxb/gitanimals">
+  <img
+    src="https://render.gitanimals.org/lines/PresentKim?pet-id=598384077865612447"
+    width="192"
+    height="108"
+  />
+</a>
+  
