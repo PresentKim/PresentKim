@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="260" viewBox="0 0 1000 260" role="img" aria-labelledby="title desc">
+  <title id="title">PresentKim — Player Profile</title>
+  <desc id="desc">A clean RPG-inspired profile header with a green accent.</desc>
+  <!-- Warm light canvas with a dark game-menu panel -->
+  <rect width="1000" height="260" rx="18" fill="#F1F3EE"/>
+  <rect x="18" y="18" width="964" height="224" rx="14" fill="#202522"/>
+  <path d="M18 32 Q18 18 32 18 H968 Q982 18 982 32 V58 H18Z" fill="#2B332D"/>
+  <circle cx="43" cy="38" r="5" fill="#78B65D"/>
+  <text x="60" y="43" fill="#DDE5DA" font-family="Arial, sans-serif" font-size="12" font-weight="700" letter-spacing="2">PLAYER DATABASE</text>
+  <text x="954" y="43" text-anchor="end" fill="#9AA69A" font-family="Arial, sans-serif" font-size="11" letter-spacing="1.5">PROFILE / 001</text>
+  <text x="62" y="112" fill="#FFFFFF" font-family="Arial, sans-serif" font-size="43" font-weight="700">PresentKim</text>
+  <text x="64" y="145" fill="#B9C4B8" font-family="Arial, sans-serif" font-size="17">Kim Hyeon Jae · 김현재</text>
+  <text x="64" y="184" fill="#E0E6DE" font-family="Arial, sans-serif" font-size="15">A creator who builds things for the joy of creating.</text>
+  <rect x="64" y="204" width="144" height="24" rx="4" fill="#3E7F32"/>
+  <text x="136" y="220" text-anchor="middle" fill="#FFFFFF" font-family="Arial, sans-serif" font-size="10" font-weight="700" letter-spacing="1">CREATIVE CLASS</text>
+  <path d="M755 84 H930 V205 H755Z" fill="#303A32" stroke="#4A594A"/>
+  <path d="M777 105 H908" stroke="#586858"/>
+  <text x="777" y="98" fill="#A9B7A7" font-family="Arial, sans-serif" font-size="10" letter-spacing="1.5">CURRENT ROLE</text>
+  <text x="777" y="132" fill="#FFFFFF" font-family="Arial, sans-serif" font-size="17" font-weight="700">Developer</text>
+  <text x="777" y="157" fill="#B8C4B5" font-family="Arial, sans-serif" font-size="12">Interior Carpenter</text>
+  <text x="777" y="185" fill="#78B65D" font-family="Arial, sans-serif" font-size="11" font-weight="700">MINECRAFT BEDROCK</text>
+</svg>
