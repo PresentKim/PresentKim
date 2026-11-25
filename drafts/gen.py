@@ -461,23 +461,25 @@ def write(path, content):
 def build(out):
     L, D = THEMES["light"], THEMES["dark"]
     def both(path, fn, *args):
-        write(path, combine(fn(*(args + (L,))), fn(*(args + (D,)))))
-    both(f"{out}/a/assets/header.svg", a_header)
+        write(f"{path}-light.svg", fn(*(args + (L,))))
+        write(f"{path}-dark.svg", fn(*(args + (D,))))
+    both(f"{out}/a/assets/header", a_header)
     for p in PROJECTS:
-        both(f"{out}/a/assets/{p['key']}.svg", a_project, p)
-    both(f"{out}/b/assets/hero.svg", b_hero)
-    both(f"{out}/b/assets/values.svg", b_values)
+        both(f"{out}/a/assets/{p['key']}", a_project, p)
+    both(f"{out}/b/assets/hero", b_hero)
+    both(f"{out}/b/assets/values", b_values)
     for p, wide in zip(PROJECTS, [True, False, False, True]):
-        write(f"{out}/b/assets/{p['key']}.svg", combine(b_tile2(p, L, wide), b_tile2(p, D, wide)))
-    both(f"{out}/c/assets/banner.svg", c_banner)
+        both(f"{out}/b/assets/{p['key']}", lambda t, p=p, wide=wide: b_tile2(p, t, wide))
+    both(f"{out}/c/assets/banner", c_banner)
     for p in PROJECTS:
-        both(f"{out}/c/assets/{p['key']}.svg", c_slot, p)
+        both(f"{out}/c/assets/{p['key']}", c_slot, p)
 
     P = {p["key"]: p for p in PROJECTS}
 
     def img(path, alt, url=None):
-        i = f"![{alt}](./assets/{path}.svg)"
-        return f"[{i}]({url})" if url else i
+        i = (f'<picture><source media="(prefers-color-scheme: dark)" srcset="./assets/{path}-dark.svg">'
+             f'<img src="./assets/{path}-light.svg" alt="{alt}"></picture>')
+        return f'<a href="{url}">{i}</a>' if url else i
 
     def card(k):
         return img(k, P[k]["name"], P[k]["url"])
@@ -488,22 +490,20 @@ def build(out):
              "[git-resource](https://gitresource.com)")
 
     # ---- A
-    a = [img("header", "PresentKim"), "",
-         card("skygear") + " " + card("research"),
-         card("pmmp") + " " + card("gitres"), "",
-         "가볍고 즐겁게 만들고, 알게 된 것은 나눕니다.", ""]
+    a = ['<p align="center">', img("header", "PresentKim"), "</p>", "",
+         '<p align="center">', card("skygear"), card("research"), "<br>", card("pmmp"), card("gitres"), "</p>", "",
+         '<p align="center"><sub>가볍고 즐겁게 만들고, 알게 된 것은 나눕니다.</sub></p>', ""]
     write(f"{out}/a/README.md", "\n".join(a))
 
     # ---- B
-    bb = [img("hero", "PresentKim"), "",
-          card("skygear") + " " + card("research"),
-          card("pmmp") + " " + card("gitres"), "",
-          img("values", "Keep it light · Share what I learn · Build the toolbox"), ""]
+    bb = ['<p align="center">', img("hero", "PresentKim"), "</p>", "",
+          '<p align="center">', card("skygear"), card("research"), "<br>", card("pmmp"), card("gitres"), "</p>", "",
+          '<p align="center">', img("values", "Keep it light · Share what I learn · Build the toolbox"), "</p>", ""]
     write(f"{out}/b/README.md", "\n".join(bb))
 
     # ---- C
-    cc = [img("banner", "PresentKim"), "",
-          " ".join(card(k) for k in ["skygear", "research", "pmmp", "gitres"]), "",
+    cc = ['<p align="center">', img("banner", "PresentKim"), "</p>", "",
+          '<p align="center">', *[card(k) for k in ["skygear", "research", "pmmp", "gitres"]], "</p>", "",
           "> 직접 콘텐츠를 찍어내기보다, 배드락의 새로운 기술을 연구해서 **다른 개발자들이 콘텐츠를 만들 수 있는 환경**을 만드는 걸 좋아합니다.",
           "> 오픈 소스에서 받은 만큼, 알게 된 것은 나눕니다.",
           "",

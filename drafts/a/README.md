@@ -1,6 +1,13 @@
-![PresentKim](./assets/header.svg)
+<p align="center">
+<picture><source media="(prefers-color-scheme: dark)" srcset="./assets/header-dark.svg"><img src="./assets/header-light.svg" alt="PresentKim"></picture>
+</p>
 
-[![SkyGear](./assets/skygear.svg)](https://github.com/PresentKim/SkyGear) [![bedrock-research](./assets/research.svg)](https://github.com/PresentKim/bedrock-research)
-[![presentkim-pm](./assets/pmmp.svg)](https://github.com/presentkim-pm) [![git-resource](./assets/gitres.svg)](https://github.com/PresentKim/git-resource)
+<p align="center">
+<a href="https://github.com/PresentKim/SkyGear"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/skygear-dark.svg"><img src="./assets/skygear-light.svg" alt="SkyGear"></picture></a>
+<a href="https://github.com/PresentKim/bedrock-research"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/research-dark.svg"><img src="./assets/research-light.svg" alt="bedrock-research"></picture></a>
+<br>
+<a href="https://github.com/presentkim-pm"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/pmmp-dark.svg"><img src="./assets/pmmp-light.svg" alt="presentkim-pm"></picture></a>
+<a href="https://github.com/PresentKim/git-resource"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/gitres-dark.svg"><img src="./assets/gitres-light.svg" alt="git-resource"></picture></a>
+</p>
 
-가볍고 즐겁게 만들고, 알게 된 것은 나눕니다.
+<p align="center"><sub>가볍고 즐겁게 만들고, 알게 된 것은 나눕니다.</sub></p>
