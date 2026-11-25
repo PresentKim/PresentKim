@@ -215,8 +215,11 @@ def pixel_width(text, s):
 def esc(t):
     return t.replace("&", "&amp;").replace("<", "&lt;").replace(">", "&gt;")
 
-def svg(w, h, body, title):
-    return (f'<svg xmlns="http://www.w3.org/2000/svg" width="{w}" height="{h}" viewBox="0 0 {w} {h}" '
+DISP = {}
+def svg(w, h, body, title, disp=None):
+    dw = disp or w
+    dh = round(h * dw / w)
+    return (f'<svg xmlns="http://www.w3.org/2000/svg" width="{dw}" height="{dh}" viewBox="0 0 {w} {h}" '
             f'role="img" aria-label="{esc(title)}" shape-rendering="auto">\n<title>{esc(title)}</title>\n{body}\n</svg>\n')
 
 def card(w, h, t, r=12, fill=None):
@@ -294,7 +297,7 @@ def a_project(p, t):
     for i, line in enumerate(p["desc"]):
         b.append(text(24, 100 + i * 19, line, 13, t["muted"]))
     b.append(lang_dot(24, 141, p["lang"], t))
-    return svg(W, H, "\n".join(b), p["name"])
+    return svg(W, H, "\n".join(b), p["name"], 376)
 
 # ================================================================= Draft B
 def b_hero(t):
@@ -379,7 +382,7 @@ def b_tile2(p, t, wide):
              f'<rect x=".5" y=".5" width="{lw}" height="22" rx="11" fill="{t["subtle"]}" stroke="{t["border"]}"/>'
              f'<circle cx="13" cy="11.5" r="4" fill="{LANG[p["lang"]]}"/>'
              + text(23, 15.5, p["lang"], 11.5, t["fg"], 500) + '</g>')
-    return svg(W, H, "\n".join(b), p["name"])
+    return svg(W, H, "\n".join(b), p["name"], 496 if wide else 257)
 
 # ================================================================= Draft C
 def c_banner(t):
@@ -433,7 +436,7 @@ def c_slot(p, t):
     x0 = (W - lw) / 2
     b.append(f'<circle cx="{x0 + 5}" cy="{205}" r="4" fill="{LANG[p["lang"]]}"/>')
     b.append(text(x0 + 15, 209, p["lang"], 12, t["muted"]))
-    return svg(W, H, "\n".join(b), p["name"])
+    return svg(W, H, "\n".join(b), p["name"], 186)
 
 # ================================================================= README writers
 def pic(path, alt, width=None, raw=False):
@@ -460,41 +463,40 @@ def build(out):
             write(f"{out}/c/assets/{p['key']}-{tn}.svg", c_slot(p, t))
 
     P = {p["key"]: p for p in PROJECTS}
-    def link(k, img):
-        return f'<a href="{P[k]["url"]}">{img}</a>'
+
+    def img(path, alt, url=None):
+        """GFM only: theme-specific images via #gh-*-mode-only fragments."""
+        parts = []
+        for tn, frag in (("light", "gh-light-mode-only"), ("dark", "gh-dark-mode-only")):
+            i = f"![{alt}](./assets/{path}-{tn}.svg#{frag})"
+            parts.append(f"[{i}]({url})" if url else i)
+        return "".join(parts)
+
+    def card(k):
+        return img(k, P[k]["name"], P[k]["url"])
+
+    links = ("[SkyGear](https://github.com/PresentKim/SkyGear) · "
+             "[bedrock-research](https://github.com/PresentKim/bedrock-research) · "
+             "[presentkim-pm](https://github.com/presentkim-pm) · "
+             "[git-resource](https://gitresource.com)")
 
     # ---- A
-    a = [f'<p align="center">{pic("./assets/header", "PresentKim", "100%")}</p>', "",
-         "<p align=\"center\">",
-         link("skygear", pic("./assets/skygear", "SkyGear", "49%")) + "\n" +
-         link("research", pic("./assets/research", "bedrock-research", "49%")),
-         "<br>",
-         link("pmmp", pic("./assets/pmmp", "presentkim-pm", "49%")) + "\n" +
-         link("gitres", pic("./assets/gitres", "git-resource", "49%")),
-         "</p>", "",
-         "<p align=\"center\"><sub>",
-         "가볍고 즐겁게 만들고, 알게 된 것은 나눕니다 · Built light, shared openly",
-         "</sub></p>", ""]
+    a = [img("header", "PresentKim"), "",
+         card("skygear") + " " + card("research"),
+         card("pmmp") + " " + card("gitres"), "",
+         "가볍고 즐겁게 만들고, 알게 된 것은 나눕니다.", ""]
     write(f"{out}/a/README.md", "\n".join(a))
 
     # ---- B
-    bb = [f'<p align="center">{pic("./assets/hero", "PresentKim", "100%")}</p>', "",
-          "<p align=\"center\">",
-          link("skygear", pic("./assets/skygear", "SkyGear", "65%")) + "\n" +
-          link("research", pic("./assets/research", "bedrock-research", "33.4%")),
-          "<br>",
-          link("pmmp", pic("./assets/pmmp", "presentkim-pm", "33.4%")) + "\n" +
-          link("gitres", pic("./assets/gitres", "git-resource", "65%")),
-          "</p>", "",
-          f'<p align="center">{pic("./assets/values", "Keep it light · Share what I learn · Build the toolbox", "100%")}</p>',
-          ""]
+    bb = [img("hero", "PresentKim"), "",
+          card("skygear") + " " + card("research"),
+          card("pmmp") + " " + card("gitres"), "",
+          img("values", "Keep it light · Share what I learn · Build the toolbox"), ""]
     write(f"{out}/b/README.md", "\n".join(bb))
 
     # ---- C
-    cc = [f'<p align="center">{pic("./assets/banner", "PresentKim", "100%")}</p>', "",
-          "<p align=\"center\">",
-          "\n".join(link(k, pic(f"./assets/{k}", P[k]["name"], "24%")) for k in ["skygear", "research", "pmmp", "gitres"]),
-          "</p>", "",
+    cc = [img("banner", "PresentKim"), "",
+          " ".join(card(k) for k in ["skygear", "research", "pmmp", "gitres"]), "",
           "> 직접 콘텐츠를 찍어내기보다, 배드락의 새로운 기술을 연구해서 **다른 개발자들이 콘텐츠를 만들 수 있는 환경**을 만드는 걸 좋아합니다.",
           "> 오픈 소스에서 받은 만큼, 알게 된 것은 나눕니다.",
           "",
