@@ -1,6 +1,6 @@
-![PresentKim](./assets/banner-light.svg#gh-light-mode-only)![PresentKim](./assets/banner-dark.svg#gh-dark-mode-only)
+![PresentKim](./assets/banner.svg)
 
-[![SkyGear](./assets/skygear-light.svg#gh-light-mode-only)](https://github.com/PresentKim/SkyGear)[![SkyGear](./assets/skygear-dark.svg#gh-dark-mode-only)](https://github.com/PresentKim/SkyGear) [![bedrock-research](./assets/research-light.svg#gh-light-mode-only)](https://github.com/PresentKim/bedrock-research)[![bedrock-research](./assets/research-dark.svg#gh-dark-mode-only)](https://github.com/PresentKim/bedrock-research) [![presentkim-pm](./assets/pmmp-light.svg#gh-light-mode-only)](https://github.com/presentkim-pm)[![presentkim-pm](./assets/pmmp-dark.svg#gh-dark-mode-only)](https://github.com/presentkim-pm) [![git-resource](./assets/gitres-light.svg#gh-light-mode-only)](https://github.com/PresentKim/git-resource)[![git-resource](./assets/gitres-dark.svg#gh-dark-mode-only)](https://github.com/PresentKim/git-resource)
+[![SkyGear](./assets/skygear.svg)](https://github.com/PresentKim/SkyGear) [![bedrock-research](./assets/research.svg)](https://github.com/PresentKim/bedrock-research) [![presentkim-pm](./assets/pmmp.svg)](https://github.com/presentkim-pm) [![git-resource](./assets/gitres.svg)](https://github.com/PresentKim/git-resource)
 
 > 직접 콘텐츠를 찍어내기보다, 배드락의 새로운 기술을 연구해서 **다른 개발자들이 콘텐츠를 만들 수 있는 환경**을 만드는 걸 좋아합니다.
 > 오픈 소스에서 받은 만큼, 알게 된 것은 나눕니다.

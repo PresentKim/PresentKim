@@ -1,5 +1,7 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="257" height="181" viewBox="0 0 284 200" role="img" aria-label="bedrock-research" shape-rendering="auto">
 <title>bedrock-research</title>
+<style>.d{display:none}@media (prefers-color-scheme: dark){.l{display:none}.d{display:inline}}</style>
+<g class="l">
 <rect x="0.5" y="0.5" width="283" height="199" rx="16" fill="#ffffff" stroke="#e4e4e7"/>
 <rect x="33" y="27" width="30" height="3" fill="#0c2a1a"/>
 <rect x="30" y="30" width="3" height="3" fill="#0c2a1a"/>
@@ -69,4 +71,76 @@
 
 
 <g transform="translate(209,28)"><rect x=".5" y=".5" width="51" height="22" rx="11" fill="#f4f4f5" stroke="#e4e4e7"/><circle cx="13" cy="11.5" r="4" fill="#fcb32c"/><text x="23" y="15.5" font-family="ui-sans-serif, -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Inter', 'Apple SD Gothic Neo', 'Malgun Gothic', 'Noto Sans KR', Helvetica, Arial, sans-serif" font-size="11.5" font-weight="500" fill="#09090b" text-anchor="start">MDX</text></g>
+</g>
+<g class="d">
+<rect x="0.5" y="0.5" width="283" height="199" rx="16" fill="#09090b" stroke="#27272a"/>
+<rect x="33" y="27" width="30" height="3" fill="#0c2a1a"/>
+<rect x="30" y="30" width="3" height="3" fill="#0c2a1a"/>
+<rect x="33" y="30" width="24" height="3" fill="#16a34a"/>
+<rect x="57" y="30" width="3" height="3" fill="#ef4444"/>
+<rect x="60" y="30" width="3" height="3" fill="#16a34a"/>
+<rect x="63" y="30" width="3" height="3" fill="#0c2a1a"/>
+<rect x="30" y="33" width="3" height="3" fill="#0c2a1a"/>
+<rect x="33" y="33" width="3" height="3" fill="#16a34a"/>
+<rect x="36" y="33" width="18" height="3" fill="#86efac"/>
+<rect x="54" y="33" width="3" height="3" fill="#16a34a"/>
+<rect x="57" y="33" width="3" height="3" fill="#ef4444"/>
+<rect x="60" y="33" width="3" height="3" fill="#16a34a"/>
+<rect x="63" y="33" width="3" height="3" fill="#0c2a1a"/>
+<rect x="30" y="36" width="3" height="3" fill="#0c2a1a"/>
+<rect x="33" y="36" width="3" height="3" fill="#16a34a"/>
+<rect x="36" y="36" width="3" height="3" fill="#86efac"/>
+<rect x="39" y="36" width="18" height="3" fill="#16a34a"/>
+<rect x="57" y="36" width="3" height="3" fill="#ef4444"/>
+<rect x="60" y="36" width="3" height="3" fill="#16a34a"/>
+<rect x="63" y="36" width="3" height="3" fill="#0c2a1a"/>
+<rect x="30" y="39" width="3" height="3" fill="#0c2a1a"/>
+<rect x="33" y="39" width="30" height="3" fill="#16a34a"/>
+<rect x="63" y="39" width="3" height="3" fill="#0c2a1a"/>
+<rect x="30" y="42" width="3" height="3" fill="#0c2a1a"/>
+<rect x="33" y="42" width="9" height="3" fill="#16a34a"/>
+<rect x="42" y="42" width="15" height="3" fill="#4ade80"/>
+<rect x="57" y="42" width="6" height="3" fill="#16a34a"/>
+<rect x="63" y="42" width="3" height="3" fill="#0c2a1a"/>
+<rect x="30" y="45" width="3" height="3" fill="#0c2a1a"/>
+<rect x="33" y="45" width="9" height="3" fill="#16a34a"/>
+<rect x="42" y="45" width="3" height="3" fill="#4ade80"/>
+<rect x="45" y="45" width="6" height="3" fill="#15803d"/>
+<rect x="51" y="45" width="3" height="3" fill="#4ade80"/>
+<rect x="54" y="45" width="3" height="3" fill="#15803d"/>
+<rect x="57" y="45" width="6" height="3" fill="#16a34a"/>
+<rect x="63" y="45" width="3" height="3" fill="#0c2a1a"/>
+<rect x="30" y="48" width="3" height="3" fill="#0c2a1a"/>
+<rect x="33" y="48" width="9" height="3" fill="#16a34a"/>
+<rect x="42" y="48" width="12" height="3" fill="#15803d"/>
+<rect x="54" y="48" width="3" height="3" fill="#16a34a"/>
+<rect x="57" y="48" width="3" height="3" fill="#15803d"/>
+<rect x="60" y="48" width="3" height="3" fill="#16a34a"/>
+<rect x="63" y="48" width="3" height="3" fill="#0c2a1a"/>
+<rect x="30" y="51" width="3" height="3" fill="#0c2a1a"/>
+<rect x="33" y="51" width="9" height="3" fill="#16a34a"/>
+<rect x="42" y="51" width="15" height="3" fill="#15803d"/>
+<rect x="57" y="51" width="6" height="3" fill="#16a34a"/>
+<rect x="63" y="51" width="3" height="3" fill="#0c2a1a"/>
+<rect x="30" y="54" width="3" height="3" fill="#0c2a1a"/>
+<rect x="33" y="54" width="33" height="3" fill="#16a34a"/>
+<rect x="66" y="54" width="3" height="3" fill="#0c2a1a"/>
+<rect x="30" y="57" width="3" height="3" fill="#0c2a1a"/>
+<rect x="33" y="57" width="33" height="3" fill="#15803d"/>
+<rect x="66" y="57" width="3" height="3" fill="#0c2a1a"/>
+<rect x="30" y="60" width="3" height="3" fill="#0c2a1a"/>
+<rect x="33" y="60" width="33" height="3" fill="#f4f4f5"/>
+<rect x="66" y="60" width="3" height="3" fill="#0c2a1a"/>
+<rect x="30" y="63" width="3" height="3" fill="#0c2a1a"/>
+<rect x="33" y="63" width="33" height="3" fill="#15803d"/>
+<rect x="66" y="63" width="3" height="3" fill="#0c2a1a"/>
+<rect x="33" y="66" width="33" height="3" fill="#0c2a1a"/>
+<text x="24" y="100" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'D2Coding', monospace" font-size="11" font-weight="600" fill="#a1a1aa" text-anchor="start" letter-spacing="1.5">KNOWLEDGE BASE</text>
+<text x="24" y="126" font-family="ui-sans-serif, -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Inter', 'Apple SD Gothic Neo', 'Malgun Gothic', 'Noto Sans KR', Helvetica, Arial, sans-serif" font-size="20" font-weight="700" fill="#fafafa" text-anchor="start" letter-spacing="-0.3">bedrock-research</text>
+<text x="24" y="150" font-family="ui-sans-serif, -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Inter', 'Apple SD Gothic Neo', 'Malgun Gothic', 'Noto Sans KR', Helvetica, Arial, sans-serif" font-size="13" font-weight="400" fill="#a1a1aa" text-anchor="start">Bedrock dev wiki,</text>
+<text x="24" y="168" font-family="ui-sans-serif, -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Inter', 'Apple SD Gothic Neo', 'Malgun Gothic', 'Noto Sans KR', Helvetica, Arial, sans-serif" font-size="13" font-weight="400" fill="#a1a1aa" text-anchor="start">sourced &amp; shared.</text>
+
+
+<g transform="translate(209,28)"><rect x=".5" y=".5" width="51" height="22" rx="11" fill="#18181b" stroke="#27272a"/><circle cx="13" cy="11.5" r="4" fill="#fcb32c"/><text x="23" y="15.5" font-family="ui-sans-serif, -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Inter', 'Apple SD Gothic Neo', 'Malgun Gothic', 'Noto Sans KR', Helvetica, Arial, sans-serif" font-size="11.5" font-weight="500" fill="#fafafa" text-anchor="start">MDX</text></g>
+</g>
 </svg>

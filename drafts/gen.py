@@ -389,7 +389,7 @@ def c_banner(t):
     W, H = 840, 240
     dark = t is THEMES["dark"]
     b = []
-    b.append(f'<clipPath id="r"><rect width="{W}" height="{H}" rx="12"/></clipPath><g clip-path="url(#r)">')
+    b.append(f'<clipPath id="r{"d" if dark else "l"}"><rect width="{W}" height="{H}" rx="12"/></clipPath><g clip-path="url(#r{"d" if dark else "l"})">')
     # banded pixel sky
     bands = (["#0b1020", "#0f1630", "#131d3d", "#18254b", "#1e2d58", "#253666"] if dark else
              ["#bfdbfe", "#c7e0fe", "#d0e5fe", "#d9eafe", "#e2effe", "#ebf4ff"])
@@ -444,33 +444,40 @@ def pic(path, alt, width=None, raw=False):
     return (f'<picture><source media="(prefers-color-scheme: dark)" srcset="{path}-dark.svg">'
             f'<img src="{path}-light.svg" alt="{alt}"{w}></picture>')
 
+def combine(light, dark):
+    """One SVG holding both themes; internal CSS shows the one matching prefers-color-scheme."""
+    head = re.match(r"(<svg[^>]*>\n<title>[^<]*</title>\n)", light).group(1)
+    def body(x):
+        return re.sub(r"^<svg[^>]*>\n<title>[^<]*</title>\n|</svg>\n?$", "", x)
+    css = ("<style>.d{display:none}@media (prefers-color-scheme: dark)"
+           "{.l{display:none}.d{display:inline}}</style>\n")
+    return f'{head}{css}<g class="l">\n{body(light)}</g>\n<g class="d">\n{body(dark)}</g>\n</svg>\n'
+
 def write(path, content):
     os.makedirs(os.path.dirname(path), exist_ok=True)
     with open(path, "w") as f:
         f.write(content)
 
 def build(out):
-    for tn, t in THEMES.items():
-        write(f"{out}/a/assets/header-{tn}.svg", a_header(t))
-        for p in PROJECTS:
-            write(f"{out}/a/assets/{p['key']}-{tn}.svg", a_project(p, t))
-        write(f"{out}/b/assets/hero-{tn}.svg", b_hero(t))
-        write(f"{out}/b/assets/values-{tn}.svg", b_values(t))
-        for p, wide in zip(PROJECTS, [True, False, False, True]):
-            write(f"{out}/b/assets/{p['key']}-{tn}.svg", b_tile2(p, t, wide))
-        write(f"{out}/c/assets/banner-{tn}.svg", c_banner(t))
-        for p in PROJECTS:
-            write(f"{out}/c/assets/{p['key']}-{tn}.svg", c_slot(p, t))
+    L, D = THEMES["light"], THEMES["dark"]
+    def both(path, fn, *args):
+        write(path, combine(fn(*(args + (L,))), fn(*(args + (D,)))))
+    both(f"{out}/a/assets/header.svg", a_header)
+    for p in PROJECTS:
+        both(f"{out}/a/assets/{p['key']}.svg", a_project, p)
+    both(f"{out}/b/assets/hero.svg", b_hero)
+    both(f"{out}/b/assets/values.svg", b_values)
+    for p, wide in zip(PROJECTS, [True, False, False, True]):
+        write(f"{out}/b/assets/{p['key']}.svg", combine(b_tile2(p, L, wide), b_tile2(p, D, wide)))
+    both(f"{out}/c/assets/banner.svg", c_banner)
+    for p in PROJECTS:
+        both(f"{out}/c/assets/{p['key']}.svg", c_slot, p)
 
     P = {p["key"]: p for p in PROJECTS}
 
     def img(path, alt, url=None):
-        """GFM only: theme-specific images via #gh-*-mode-only fragments."""
-        parts = []
-        for tn, frag in (("light", "gh-light-mode-only"), ("dark", "gh-dark-mode-only")):
-            i = f"![{alt}](./assets/{path}-{tn}.svg#{frag})"
-            parts.append(f"[{i}]({url})" if url else i)
-        return "".join(parts)
+        i = f"![{alt}](./assets/{path}.svg)"
+        return f"[{i}]({url})" if url else i
 
     def card(k):
         return img(k, P[k]["name"], P[k]["url"])

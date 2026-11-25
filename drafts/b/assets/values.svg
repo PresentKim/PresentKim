@@ -1,5 +1,7 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="840" height="150" viewBox="0 0 840 150" role="img" aria-label="Values" shape-rendering="auto">
 <title>Values</title>
+<style>.d{display:none}@media (prefers-color-scheme: dark){.l{display:none}.d{display:inline}}</style>
+<g class="l">
 <rect x="0.5" y="0.5" width="839" height="149" rx="16" fill="#ffffff" stroke="#e4e4e7"/>
 <text x="32.0" y="52" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'D2Coding', monospace" font-size="12" font-weight="600" fill="#71717a" text-anchor="start">01</text>
 <text x="32.0" y="84" font-family="ui-sans-serif, -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Inter', 'Apple SD Gothic Neo', 'Malgun Gothic', 'Noto Sans KR', Helvetica, Arial, sans-serif" font-size="17" font-weight="600" fill="#09090b" text-anchor="start">Keep it light</text>
@@ -12,4 +14,19 @@
 <text x="572.0" y="52" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'D2Coding', monospace" font-size="12" font-weight="600" fill="#71717a" text-anchor="start">03</text>
 <text x="572.0" y="84" font-family="ui-sans-serif, -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Inter', 'Apple SD Gothic Neo', 'Malgun Gothic', 'Noto Sans KR', Helvetica, Arial, sans-serif" font-size="17" font-weight="600" fill="#09090b" text-anchor="start">Build the toolbox</text>
 <text x="572.0" y="108" font-family="ui-sans-serif, -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Inter', 'Apple SD Gothic Neo', 'Malgun Gothic', 'Noto Sans KR', Helvetica, Arial, sans-serif" font-size="13" font-weight="400" fill="#71717a" text-anchor="start">Research tech so others can create.</text>
+</g>
+<g class="d">
+<rect x="0.5" y="0.5" width="839" height="149" rx="16" fill="#09090b" stroke="#27272a"/>
+<text x="32.0" y="52" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'D2Coding', monospace" font-size="12" font-weight="600" fill="#a1a1aa" text-anchor="start">01</text>
+<text x="32.0" y="84" font-family="ui-sans-serif, -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Inter', 'Apple SD Gothic Neo', 'Malgun Gothic', 'Noto Sans KR', Helvetica, Arial, sans-serif" font-size="17" font-weight="600" fill="#fafafa" text-anchor="start">Keep it light</text>
+<text x="32.0" y="108" font-family="ui-sans-serif, -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Inter', 'Apple SD Gothic Neo', 'Malgun Gothic', 'Noto Sans KR', Helvetica, Arial, sans-serif" font-size="13" font-weight="400" fill="#a1a1aa" text-anchor="start">Small, fun projects I actually use.</text>
+<line x1="288.0" y1="24" x2="288.0" y2="126" stroke="#27272a"/>
+<text x="308.0" y="52" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'D2Coding', monospace" font-size="12" font-weight="600" fill="#a1a1aa" text-anchor="start">02</text>
+<text x="308.0" y="84" font-family="ui-sans-serif, -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Inter', 'Apple SD Gothic Neo', 'Malgun Gothic', 'Noto Sans KR', Helvetica, Arial, sans-serif" font-size="17" font-weight="600" fill="#fafafa" text-anchor="start">Share what I learn</text>
+<text x="308.0" y="108" font-family="ui-sans-serif, -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Inter', 'Apple SD Gothic Neo', 'Malgun Gothic', 'Noto Sans KR', Helvetica, Arial, sans-serif" font-size="13" font-weight="400" fill="#a1a1aa" text-anchor="start">Open source gave me a lot.</text>
+<line x1="552.0" y1="24" x2="552.0" y2="126" stroke="#27272a"/>
+<text x="572.0" y="52" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'D2Coding', monospace" font-size="12" font-weight="600" fill="#a1a1aa" text-anchor="start">03</text>
+<text x="572.0" y="84" font-family="ui-sans-serif, -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Inter', 'Apple SD Gothic Neo', 'Malgun Gothic', 'Noto Sans KR', Helvetica, Arial, sans-serif" font-size="17" font-weight="600" fill="#fafafa" text-anchor="start">Build the toolbox</text>
+<text x="572.0" y="108" font-family="ui-sans-serif, -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Inter', 'Apple SD Gothic Neo', 'Malgun Gothic', 'Noto Sans KR', Helvetica, Arial, sans-serif" font-size="13" font-weight="400" fill="#a1a1aa" text-anchor="start">Research tech so others can create.</text>
+</g>
 </svg>
