@@ -64,6 +64,7 @@ def gitres_svg(x0, y0, s):
 
 ICONS = {}
 ICONS["skygear"] = grid_from_png(os.path.join(REF, "sg.png"))
+ICON_SIZE = {}
 
 # PMMP plugin: plug
 ICONS["pmmp"] = grid_from_art([
@@ -147,10 +148,16 @@ ISLAND = grid_from_art([
 ], {"t": "#166534", "T": "#22c55e", "b": "#92400e", "g": "#4ade80", "G": "#16a34a",
     "d": "#78350f", "D": "#92400e", "s": "#71717a"})
 
+ICONS["research"] = grid_from_png(os.path.join(REF, "br16.png"))
+ICONS["pmmp"] = grid_from_png(os.path.join(REF, "pm48.png"))
+ICON_SIZE["pmmp"] = 48
+ICONS["me"] = grid_from_png(os.path.join(REF, "me16.png"))
+
 def icon(name, x, y, s):
     if name == "gitres":
         return gitres_svg(x, y, s)
-    return pixels_svg(ICONS[name], x, y, s)
+    n = ICON_SIZE.get(name, 16)
+    return pixels_svg(ICONS[name], x, y, s * 16 / n)
 
 # ---------------------------------------------------------------- 5x7 pixel font
 GLYPHS = {
@@ -188,7 +195,7 @@ GLYPHS = {
     "_": ["00000", "00000", "00000", "00000", "00000", "00000", "11111"],
     "1": ["00100", "01100", "00100", "00100", "00100", "00100", "01110"],
     "6": ["01110", "10000", "10000", "11110", "10001", "10001", "01110"],
-    "X2": [],
+    '"': ["01010", "01010", "01010", "00000", "00000", "00000", "00000"],
 }
 
 def pixel_text(text, x0, y0, s, fill, shadow=None):

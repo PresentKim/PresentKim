@@ -81,18 +81,20 @@ def banner(t, sky="day", H=240, compact=False, prompt=None, sun=False):
         b.append(f'<rect x="0" y="{i * bh:g}" width="{W}" height="{bh + 1:g}" fill="{c}"/>')
     random.seed(7)
     name_x = 220 if compact else 48
-    text_box = (name_x - 10, 30, name_x + 520, H - 30)
+    text_box = (name_x - 10, 30, name_x + 550, H - 30)
     if dark:
         for _ in range(110):
             x, y = random.randrange(0, W // 4) * 4, random.randrange(0, (H - 30) // 4) * 4
             if text_box[0] < x < text_box[2] and text_box[1] < y < text_box[3]:
+                continue
+            if not compact and 596 <= x <= 812 and 16 <= y <= 220:
                 continue
             if compact and x < 200 and 20 < y < H - 20:
                 continue
             s = random.choice([4, 4, 4, 8])
             b.append(f'<rect x="{x}" y="{y}" width="{s}" height="{s}" fill="#e0e7ff" opacity="{random.choice([.4, .6, .9])}"/>')
     else:
-        clouds = [(640, 24, 4), (760, 70, 3), (560, 200, 3)] if not compact else [(700, 22, 4), (600, 120, 3)]
+        clouds = [(530, 22, 3), (790, 212, 3), (548, 204, 3)] if not compact else [(700, 22, 4), (600, 120, 3)]
         for cx, cy, n in clouds:
             for k in range(n):
                 b.append(f'<rect x="{cx + k * 12}" y="{cy}" width="12" height="12" fill="#ffffff" opacity=".85"/>')
@@ -103,7 +105,12 @@ def banner(t, sky="day", H=240, compact=False, prompt=None, sun=False):
     if compact:
         b.append(pixels_svg(ISLAND, 24, (H - 128) / 2, 7))
     else:
-        b.append(pixels_svg(ISLAND, 600, 36, 8))
+        # profile picture in a pixel frame
+        ax, ay, sc = 624, 36, 10
+        fr = "#1e3a8a" if not dark else "#a5b4fc"
+        b.append(f'<rect x="{ax - 8}" y="{ay - 8}" width="{160 + 16}" height="{160 + 16}" fill="{fr}" opacity=".9"/>')
+        b.append(f'<rect x="{ax - 4}" y="{ay - 4}" width="{160 + 8}" height="{160 + 8}" fill="{bands[2]}"/>')
+        b.append(pixels_svg(gen.ICONS["me"], ax, ay, sc))
     if sky == "dusk":
         fg, sh, sub, body = (("#fff7ed", "#3b0764", "#f9a8d4", "#fbcfe8") if dark else
                              ("#431407", "#fdba74", "#9a3412", "#7c2d12"))
@@ -116,16 +123,20 @@ def banner(t, sky="day", H=240, compact=False, prompt=None, sun=False):
         b.append(text(name_x + 2, 140, "Carpenter by day. Building tools for Bedrock creators by night.", 14, body, 500))
     else:
         b.append(pixel_text("PRESENTKIM", 48, 64, 7, fg, sh))
-        b.append(pixel_text("BEDROCK RESEARCH / TOOLS", 50, 132, 3, sub))
+        b.append(pixel_text(SUBTITLE, 50, 132, 3, sub))
         if prompt:
             b.append(text(50, 188, "$", 14, sub, 700, family=MONO))
             b.append(text(66, 188, prompt[0], 14, fg, 500, family=MONO))
             b.append(text(50, 210, prompt[1], 13, body, 400, family=MONO))
         else:
-            b.append(text(50, 190, "Carpenter by day. Building tools for Bedrock creators by night.", 14, body, 500))
+            b.append(f'<text x="50" y="192" font-family="{FONT}" font-size="15" fill="{body}">'
+                     f'<tspan font-weight="700" fill="{fg}">Main job</tspan> interior carpenter.  '
+                     f'<tspan font-weight="700" fill="{fg}">Hobby</tspan> programming.</text>')
     b.append("</g>")
     b.append(f'<rect x="0.5" y="0.5" width="{W - 1}" height="{H - 1}" rx="12" fill="none" stroke="{t["border"]}"/>')
     return svg(W, H, "\n".join(b), "PresentKim")
+
+SUBTITLE = 'JUST KNOW THIS. "YOU ARE GOOD"'
 
 # ---------------------------------------------------------------- pixel-cornered card shape
 def pcard(w, h, t, step=4, fill=None, stroke=True):
@@ -141,7 +152,7 @@ def pcard(w, h, t, step=4, fill=None, stroke=True):
     return f'<path d="{d}" fill="{fill or t["card"]}"{st} shape-rendering="crispEdges"/>'
 
 # ---------------------------------------------------------------- project card (A base)
-ACCENT = {"skygear": "#f59e0b", "research": "#16a34a", "pmmp": "#8b5cf6", "gitres": "#3b82f6"}
+ACCENT = {"skygear": "#f59e0b", "research": "#0ea5e9", "pmmp": "#84cc16", "gitres": "#64748b"}
 
 def project(p, t, variant="a"):
     W, H = 414, 156
@@ -217,6 +228,10 @@ def readme(intro=None):
     return "\n".join(r)
 
 VARIANTS = {
+    # H: D design + F project cards (accent bar), profile picture, new copy
+    "h": dict(header=lambda t: banner(t), card="accent", values="b", intro=None),
+}
+OLD_VARIANTS = {
     # D: straight combination
     "d": dict(header=lambda t: banner(t), card="a", values="b", intro=None),
     # E: pixel-everything (stepped corners, pixel icons in footer), dusk sky with sun
