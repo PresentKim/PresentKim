@@ -1,12 +1,15 @@
 #!/usr/bin/env python3
-"""Round 2 drafts: C-style pixel header + A-style project grid + B-style values footer."""
+"""Generate the profile README and its SVG assets.
+
+Usage: python3 scripts/profile.py [output dir, default: repository root]
+"""
 import os, sys, random
 sys.path.insert(0, os.path.dirname(__file__))
 import gen
 from gen import (THEMES, PROJECTS, FONT, MONO, svg, card, text, pill, icon, icon_tile, lang_dot,
                  pixels_svg, pixel_text, grid_from_art, ISLAND, write, LANG)
 
-OUT = sys.argv[1] if len(sys.argv) > 1 else "drafts"
+OUT = sys.argv[1] if len(sys.argv) > 1 else os.path.join(os.path.dirname(os.path.abspath(__file__)), "..")
 
 # ---------------------------------------------------------------- extra pixel icons
 STAR = grid_from_art([
@@ -254,6 +257,15 @@ def build(out):
             write(f"{d}/assets/values-{tn}.svg", values(t, v["values"]))
         write(f"{d}/README.md", readme(v["intro"]))
 
+def build_profile(out, key="h"):
+    v = VARIANTS[key]
+    for tn, t in THEMES.items():
+        write(f"{out}/assets/header-{tn}.svg", v["header"](t))
+        for p in PROJECTS:
+            write(f"{out}/assets/{p['key']}-{tn}.svg", project(p, t, v["card"]))
+        write(f"{out}/assets/values-{tn}.svg", values(t, v["values"]))
+    write(f"{out}/README.md", readme(v["intro"]))
+
 if __name__ == "__main__":
-    build(OUT)
+    build_profile(OUT)
     print("ok")
